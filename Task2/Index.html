@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery Driver Application</title>
+    <link rel="icon" href="images/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="applicationForm">Delivery Driver Application</div>
+
+    <div class="main">
+        <form>
+            <div id="Pdetails">
+                <h2 class = "name">Name</h2>
+                <input class = "firstname" type="text" name = "Fname"> <br>
+                <label class="first">First Name</label>
+                <input class="lastname" type="text" name="Lname">
+                <label class="last">Last Name</label>
+            </div>
+
+            <h2 class="name">Birth Date</h2>
+            <input type="date" id="birthday" name="birthday">
+
+            <h2 class="name">Contact Information</h2>
+            <input type="email" name="Email" class ="email">
+            <label class="Email">Email</label>
+            <input type="file" name="CV" class="cv">
+            <label class="CV">CV</label>
+            
+            <h2 class="name">PhoneNumber</h2>
+            <input class ="num" type="number" name="Pnum">
+
+            <h2 class="name">Address</h2>
+            <input class = "Adrs" type="text" name = "Address">
+            <label class = "Address">Current Address</label>
+            <input class = "code" type="text" name = "Acode">
+            <label class="Acode">AreaCode</label>
+
+            <h2 class="name">Experience</h2>
+            <select class= "opt" name="Exp">
+                <option disabled="disabled" selected="selected">Please Select Years Of Experience</option>
+                <option>0-2</option>
+                <option>3-10</option>
+                <option>10+</option>
+                
+            </select>
+
+            <h2 id="employ">Are You currently Employed</h2>
+            <label class="radio">
+                <input class="r1" type="radio" name="">
+                <span class="checkmark"></span>
+                Yes
+            </label>
+            
+            <label class="radio">
+                <input class="r2" type="radio"  name="">
+                <span class="checkmark"></span>
+                No
+            </label>
+
+            <h2 class="name">Available StartDate</h2>
+            <input class="avail" type="date" name="Start Date">
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
